@@ -6,8 +6,8 @@ import { Ui } from "./UI.js";
 window.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
-    canvas.width = 500;
-    canvas.height = 500;
+    canvas.width = 1080;
+    canvas.height = 720;
 
     class Game{
         constructor(width, height){
